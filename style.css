@@ -8,9 +8,7 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-
     color: #f9faf8;
-
 }
 .h1 {
     font-size: 48px;
@@ -20,19 +18,14 @@
 .hero-text {
     width: 40%;
     font-size: 18px;
-
-
 }
 .top {
     display: flex;
     flex-wrap: nowrap;
     gap: 250px;
-
-
 }
 
 .hero-main {
-
 padding-top: 60px;
     display: flex;
    /* flex-wrap: nowrap;*/
@@ -41,19 +34,15 @@ padding-top: 60px;
     justify-content: center;
     flex: 1;
 }
-
 button {
     background-color: #3882f6;
     color: #f9faf8;
     width: 25%;
-
 }
 .header {
     font-size: 24px;
     color: #f9faf8;
     margin-top: 10px;
-
-
 }
 .menu {
     /*padding-left: 30px;*/
@@ -63,32 +52,50 @@ button {
     flex-wrap: nowrap;
     gap: 90px;
 }
-
-
 img {
-
 display: flex;
+flex-wrap: nowrap;
 justify-content: center;
 align-self: center;
-
-
 }
-
 
 li {
     list-style: none;
-
 }
 
 ul {
     display: flex;
-
     gap: 15px;
     font-size: 18px;
-
 }
 
 a {
     text-decoration: none;
     color: #f9faf8;
+}
+.quote {
+    display: flex;
+}
+.images-title {
+    padding: 30px;
+    display: flex;
+    font: #1f2937;
+    font-size: 36px;
+    font-weight: 900;
+    justify-content: center;
+    flex: 1;
+}
+.images {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+.images
+div {
+    text-align: center;
+}
+.images
+img {
+    border: 3px solid #3882f6;
+    border-radius: 9%;
 }

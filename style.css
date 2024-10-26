@@ -74,8 +74,22 @@ a {
     color: #f9faf8;
 }
 .quote {
+    background-color: #e5e7eb;
+    margin: 50px 50px;
     display: flex;
 }
+.quote-text {
+    font-size: 30px;
+    font-style: italic;
+    color: #1f2937;
+    padding: 20px 225px;
+}
+.quote
+.author {
+    text-align: right;
+    font-weight: bold;
+}
+
 .images-title {
     padding: 30px;
     display: flex;
